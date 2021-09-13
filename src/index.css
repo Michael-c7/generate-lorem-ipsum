@@ -12,6 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
 }
 
 code {
@@ -21,4 +22,41 @@ code {
 
 ul {
   list-style-type: none;
+}
+
+
+.container {
+  position: relative;
+  margin:0 auto;
+  width:80%;
+  text-align: center;
+}
+
+h1 {
+  margin:1rem 0 2rem 0;
+}
+
+form {
+  background:#ececec;
+  width:15rem;
+  padding:0.5rem;
+  margin:0 auto;
+}
+
+.msg {
+  margin:0.25rem 0 1.75rem 0;
+}
+
+input {
+  width:3rem;
+  margin:0 0.25rem 0 0.5rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.generated-text-section p {
+  width:60ch;
+  margin:0.75rem auto;
 }
